@@ -1,0 +1,25 @@
+header{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#me{
+    width: 150px;
+    justify-self: center;
+    padding: 20px;
+}
+header h1{
+    color: blanchedalmond;
+    text-align: center;
+    align-self: center;
+}
+
+
+footer{
+    background-color: blueviolet;
+}
+footer p{
+    color: blanchedalmond;
+    text-align: center;
+    padding: 20px;
+}
