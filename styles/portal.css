@@ -12,15 +12,20 @@ header h1{
     color: blanchedalmond;
     text-align: center;
     align-self: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 main {
     padding: 20px;
 }
 main h2{
     text-align: center;
+    color:blueviolet;
+    font-family: 'Courier New', Courier, monospace;
 
 }
-
+main p{
+    font-family: 'Courier New', Courier, monospace;
+}
 footer{
     background-color: blueviolet;
 }
@@ -28,4 +33,6 @@ footer p{
     color: blanchedalmond;
     text-align: center;
     padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
 }
