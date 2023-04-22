@@ -21,7 +21,8 @@ main h2{
     text-align: center;
     color:blueviolet;
     font-family: 'Courier New', Courier, monospace;
-
+    background-color: blanchedalmond;
+    padding: 20px;
 }
 main p{
     font-family: 'Courier New', Courier, monospace;
