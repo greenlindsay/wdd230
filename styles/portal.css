@@ -29,11 +29,16 @@ main p{
 }
 footer{
     background-color: blueviolet;
+    display: grid;
+    padding: 20px;
+}
+#current{
+    color:blanchedalmond;
+    justify-self: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 footer p{
     color: blanchedalmond;
     text-align: center;
-    padding: 20px;
     font-family: 'Courier New', Courier, monospace;
-
 }
