@@ -1,43 +1,83 @@
-header{
+header {
     background-color: blueviolet;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-#me{
+
+nav {
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav a {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
+#me {
     width: 150px;
     justify-self: center;
     padding: 20px;
 }
-header h1{
+
+header h1 {
     color: blanchedalmond;
     text-align: center;
     align-self: center;
     font-family: 'Courier New', Courier, monospace;
 }
+
 main {
     padding: 20px;
+    width: 90%;
+    margin: auto;
 }
-main h2{
+
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card {
+    display: grid;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+main h3 {
     text-align: center;
-    color:blueviolet;
+    color: blueviolet;
     font-family: 'Courier New', Courier, monospace;
     background-color: blanchedalmond;
     padding: 20px;
 }
-main p{
+
+main p,
+ul {
     font-family: 'Courier New', Courier, monospace;
 }
-footer{
+
+footer {
     background-color: blueviolet;
     display: grid;
     padding: 20px;
 }
-#current{
-    color:blanchedalmond;
+
+#current {
+    color: blanchedalmond;
     justify-self: center;
     font-family: 'Courier New', Courier, monospace;
 }
-footer p{
+
+footer p {
     color: blanchedalmond;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;

@@ -4,11 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description"
-        content="Assignment portal for Lindsay Green in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
-    <title>Assignment Portal</title>
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/portal.css">
+    <meta name="description" content="WDD 230 - Web Frontend Development Lindsay Green course assignment portal">
+    <title>Lindsay Green - WDD 230 - Web Frontend Development</title>
+    <link rel="stylesheet" href="styles/base.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Roboto:wght@300&display=swap"
@@ -20,26 +18,39 @@
         <img id="me" src="images/seniorpic2.JPG" alt="me">
         <h1>Lindsay Green</h1>
     </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="chamber/siteplan.html">Site Plan</a>
+        <a href="chamber/">Chamber</a>
+        <a target="_blank" href="https://web.byui.edu/portal/student/">BYU-Idaho</a>
+        <a target="_blank"
+            href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/4?lang=eng#">Scripture</a>
+    </nav>
     <main>
-        <h2>WDD 230: Assignment Portal</h2>
-        <p>Lesson 02: </p>
-        <p>Lesson 03: </p>
-        <p>Lesson 04: </p>
-        <p>Lesson 05: </p>
-        <p>Lesson 06: </p>
-        <p>Lesson 07: </p>
-        <p>Lesson 08: </p>
-        <p>Lesson 09: </p>
-        <p>Lesson 10: </p>
-        <p>Lesson 11: </p>
+        <section class="card">
+            <h3>Learning Activities</h3>
+            <ul>
+                <li a href="">Activity 1</li>
+                <li a href="">Activity 2</li>
+                <li a href="">Activity 3</li>
+                <li a href="">Activity 4</li>
+            </ul>
+            <br>
+        </section>
+        <section class="card">
+            <h3>Information</h3>
+            <ul>
+                <li>Weather:</li>
+                <li>Number of Visits:</li>
+
+            </ul>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2023 | Lindsay Green | Idaho</p>
-        <p> Last Updated: <span id="current"></span></p>
+        <p>&copy; <span id="year"></span> | Lindsay Green | Idaho</p>
+        <p id="lastModified"> Last Modified: <span id="current"></span></p>
     </footer>
-    <script>
-        let mod = document.lastModified;
-        document.getElementById("current").textContent = mod
+    <script src="scripts/getdates.js">
     </script>
 </body>
 
