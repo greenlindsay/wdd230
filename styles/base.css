@@ -39,7 +39,7 @@ main {
 }
 
 h2{
-    margin: auto;
+    text-align: center;
     color: blueviolet;
     font-family: 'Courier New', Courier, monospace;
 }
