@@ -1,3 +1,6 @@
+@media screen and (min-width: 640px){
+    
+}
 h1,h2,h3{
     text-align: center;
     font-family: Croissant One;
@@ -45,4 +48,5 @@ p{
     padding: 30px;
     font-size: 20px;
     text-align: center;
+    line-height: 30px;
 }
