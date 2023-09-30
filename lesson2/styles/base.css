@@ -5,6 +5,9 @@ h1,h2,h3{
     text-align: center;
     font-family: Croissant One;
 }
+li{
+    position: left;
+}
 
 h1{
     background-color: rgba(150, 7, 74, 0.767);
