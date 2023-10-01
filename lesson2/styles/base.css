@@ -8,19 +8,35 @@ h1,h2,h3{
 li{
     position: left;
 }
-
+nav{
+    display: grid;
+}
 h1{
     background-color: rgba(150, 7, 74, 0.767);
     padding: 30px;
     color: lightpink;
     align-items: center;
     width: 100%;
-
 }
 h2{
     background-color: blanchedalmond;
     padding: 10px;
     margin: 0 auto;
+}
+#menu{
+    font-size: 1.5rem;
+    border: 1px blanchedalmond;
+    padding: 4px;
+
+    position: absolute;
+    top: 10px;
+    right: 10px
+}
+#menu::before{
+    content: "⭐"
+}
+#menu.open::before{
+    content: "❌"
 }
 .card1 {
     align-items: center;

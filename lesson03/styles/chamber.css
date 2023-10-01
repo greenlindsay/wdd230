@@ -1,0 +1,98 @@
+body {
+    background-color: #1c3144;
+    padding: 20px;
+}
+
+nav {
+    text-decoration: none;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+header {
+    font-family: "Castoro Titling", 'Times New Roman';
+    color: #1c3144;
+    background-color: #625834;
+    width: 100%;
+    padding: 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+img{
+    grid-column: 3/4;
+    width: 100px;
+    justify-self: right;
+    align-items: center;
+}
+h1{
+    background-color: #F6F5AE;
+    width: 100%;
+    padding: 10px;
+}
+
+h2 {
+    font-family: "Castoro Titling", 'Times New Roman';
+    background-color: #99A1A6;
+    padding: 1rem;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto Condensed';
+    background-color: #F6F5AE;
+}
+
+li {
+    font-family: 'Roboto Condensed';
+    background-color: #F6F5AE;
+    
+}
+
+nav {
+    text-decoration: none;
+    font-family: 'Roboto Condensed';
+    background-color: #1c3144;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: #F6F5AE;
+}
+
+#colors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    font-family: 'Roboto Condensed';
+    text-align: center;
+    justify-content: center;
+}
+
+.dark {
+    background-color: #1c3144;
+
+}
+
+.light {
+    background-color: #99A1A6;
+
+}
+
+.cream {
+    background-color: #F6F5AE;
+
+}
+
+.green {
+    background-color: #625834;
+
+}
+
+footer {
+    margin: 0 auto;
+    background-color: #625834;
+    color: #F6F5AE;
+    padding: 10px;
+    text-align: center;
+}
