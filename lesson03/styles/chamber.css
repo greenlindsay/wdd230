@@ -19,6 +19,13 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+main{
+    display: grid;
+}
+#wire{
+    display: grid;
+
+}
 #wire img{
     width: 300px;
     align-items: center;
