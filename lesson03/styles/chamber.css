@@ -19,11 +19,11 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-img{
-    grid-column: 3/4;
-    width: 100px;
-    justify-self: right;
+#wire img{
+    width: 300px;
     align-items: center;
+    justify-content: center;
+    align-self: center;
 }
 h1{
     background-color: #F6F5AE;
@@ -88,6 +88,7 @@ a{
     background-color: #625834;
 
 }
+
 
 footer {
     margin: 0 auto;
