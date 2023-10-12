@@ -7,11 +7,13 @@ header {
 
 nav {
     background-color: blueviolet;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 25px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 nav a {
