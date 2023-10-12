@@ -1,6 +1,11 @@
 :root{
     background-color: #1c3144;
 }
+a{
+    text-decoration: none;
+    color: #F6F5AE;
+    font-family: 'Roboto Condensed';
+}
 header{
 
 }
@@ -9,27 +14,61 @@ header img:hover{
 nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: center;
 }
 nav a{
     text-decoration: none;
     color: #F6F5AE;
     font-family: 'Roboto Condensed';
-    padding: 10px;
+    padding: 5px;
+    font-size: 20px;
 }
 main{
     display: grid;
-
+    color: #F6F5AE;
+    font-family: 'Roboto Condensed';
+    text-align: center;
+}
+main img{
+    justify-self: center;
+    padding: 20px;
+}
+main li{
+    text-align: left;
+    padding: 5px;
 }
 #hero{
+    center;
+}
+main a {
+    font-size: 25px;
+    background-color: #625834;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+main #join{
+    padding: 10px;
+    
+}
+main #events{
+    color: #F6F5AE;
+    font-family: 'Roboto Condensed';
+    padding: 10px;
 
 }
-#events{
-
+main #weather{
+    color: #F6F5AE;
+    font-family: 'Roboto Condensed';
 }
-#weather{
-
+#spot ul{
+    color: #F6F5AE;
+    font-family: 'Roboto Condensed';
+    text-align: center;
 }
 footer{
-
+    color: #F6F5AE;
+    font-family: 'Roboto Condensed';
+    text-align: center;
+    
 }
