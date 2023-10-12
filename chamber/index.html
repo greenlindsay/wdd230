@@ -7,28 +7,46 @@
 <meta property="og:type" content="Website">
 <meta property="og:url" content="chamber/index.html">
 <meta property="og:image" content="Image of Utah Valley/Orem">
+<link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Lato&family=Playfair+Display&family=Raleway&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<link href="https://coolors.co/1c3144-99a1a6-f6f5ae-625834">
+<link rel="stylesheet" href="styles/base.css">
 <title>Orem Chamber</title>
 </head>
-
 <body>
     <header>
-    <a href="">Join the Chamber</a>
-
+        <a href="index.html"><img src="images/Orem Chamber-logos_white.png" alt="Orem Chamber Logo" width="30%"></a>
     </header>
     <nav>
-
+        <a href="index.html">Home</a>
+        <a href="#">Discover</a>
+        <a href="#">Directory</a>
+        <a href="#">Join</a>
     </nav>
     <main>
-        <img src="images/orem.jpg" alt="image of Orem" width="75%">
+        <div id="hero"></div>
+        <img src="images/orem.jpg" alt="image of Orem" width="95%">
 
-        <section id="weather"></section>
-        <h1>Weather</h1>
-        
-    
+        <div id="join"></div>
+        <a href="">Join the Chamber!</a>
+
+        <section id="events">Current Events</section>
+        <img src="images/events.png" alt="Events icon" width="15%">
+
+        <section id="card">Weather</section>
+        <img src="images/weather.png" alt="Weather icon" width="15%">
+
+        <section id="spot">Spotlights</section>
+        <ul>
+            <li>3 New Restaurant Openings</li>
+            <li>Orem's Newest Entrepreneurs</li>
+            <li>Chamber of Commerce Awards Ceremony</li>
+        </ul>
     </main>
     <footer>
-
+        <p id="lastModified">Lindsay Green   | WDD230 Chamber Project | Last Modified: <span id="current"></span></p>
     </footer>
+    <script src="scripts/getdates.js">
+    </script>
 </body>
 
 </html>

@@ -1,0 +1,35 @@
+:root{
+    background-color: #1c3144;
+}
+header{
+
+}
+header img:hover{
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: #F6F5AE;
+    font-family: 'Roboto Condensed';
+    padding: 10px;
+}
+main{
+    display: grid;
+
+}
+#hero{
+
+}
+#events{
+
+}
+#weather{
+
+}
+footer{
+
+}
