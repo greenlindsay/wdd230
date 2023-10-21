@@ -60,8 +60,8 @@ section {
 }
 .herolabel{
     position: absolute;
-    top: 400px;
-    left: 120px;
+    top: 420px;
+    left: 110px;
     background: radial-gradient(#fff,#4D5b97);
     border: 1px solid rgba(0,0,0,.75);
     padding: .5rem;
@@ -72,7 +72,7 @@ section {
 	margin: 0;
 	padding: .25rem;
 	font-weight: 700;
-	font-size: 2rem;
+	font-size: 1.75rem;
 	font-family:"Great Vibes", serif;
 }
 .card {
