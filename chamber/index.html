@@ -15,28 +15,39 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="images/Orem Chamber-logos_white.png" alt="Orem Chamber Logo" width="25%"></a>
+        <a href="index.html"><img src="images/Orem Chamber-logos_white.webp" alt="Orem Chamber Logo" width="275rem"></a>
     </header>
     <nav>
         <a href="index.html">Home</a>
         <a href="#">Discover</a>
         <a href="#">Directory</a>
         <a href="#">Join</a>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
     </nav>
     <main>
         <div id="hero"></div>
-        <img src="images/orem.jpg" alt="image of Orem" width="100%">
+        <source srcset="images/wdd230-org-small" media="(max-width: 500px)">
+        <source srcset="images/wdd230-org-medium" media="(max-width: 1000px)">
+        <img src="images/wdd230-org.webp" alt="image of Orem" width="1600" height="1000">
 
         <div id="join"></div>
         <a href="">Click here to join the Chamber!</a>
 
-        <section id="events">Current Events</section>
-        <img src="images/events.png" alt="Events icon" width="15%">
+        <section id="events"></section>
+        <h2>Current Events</h2>
+        <img src="images/events.webp" alt="Events icon" width="120rem">
 
-        <section id="card">Weather</section>
-        <img src="images/weather.png" alt="Weather icon" width="15%">
+        <section id="card"></section>
+        <h2>Weather</h2>
+        <p>Temperature: <img src="images/weather.webp" alt="Weather icon" width="40rem">
+        </p>
+        <p>Wind Chill: <img src="images/wind.png" alt="Wind icon" width="30rem"></p>
 
-        <section id="spot">Spotlights</section>
+        <section id="spot"></section>
+        <h2>Spotlights</h2>
         <ul>
             <li>3 New Restaurant Openings</li>
             <li>Orem's Newest Entrepreneurs</li>
@@ -45,9 +56,13 @@
     </main>
     <footer>
         <p id="lastModified">Lindsay Green   | WDD230 Chamber Project | Last Modified: <span id="current"></span></p>
+        <a href="index.html"><img src="images/facebook.webp" alt="Facebook logo" width="45rem"></a>
+        <a href="index.html"><img src="images/instagram.webp" alt="instagram logo" width="45rem"></a>
+        <a href="index.html"><img src="images/twitter.webp" alt="Twitter logo" width="45rem"></a>
     </footer>
     <script src="scripts/getdates.js">
     </script>
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>

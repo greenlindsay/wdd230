@@ -6,27 +6,91 @@ a{
     color: #F6F5AE;
     font-family: 'Roboto Condensed';
 }
-header{
-
-}
-header img:hover{
+header img{
 }
 nav{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #625834;
+    border-radius: .35rem;
 }
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    align-self: center;
+    justify-self: center;
+}
+.switch input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+     bottom: 0;
+    background-color: #a1a19e;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #F6F5AE;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #1c3144;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #1c3144;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
 nav a{
     text-decoration: none;
     color: #F6F5AE;
     font-family: 'Roboto Condensed';
-    padding: 5px;
+    padding: 15px;
     font-size: 20px;
+    text-align: center;
+}
+nav a:hover{
+    background-color: #70653d;
+    border-radius: .35rem;
 }
 main{
     display: grid;
     color: #F6F5AE;
     font-family: 'Roboto Condensed';
     text-align: center;
+    margin: 0 auto;
 }
 main img{
     justify-self: center;
@@ -45,11 +109,13 @@ main a {
     padding: 20px;
     text-align: center;
     margin: 0 auto;
-    
+    border-radius: .5rem;
 }
-main #join{
-    padding: 10px;
-    
+main a:hover{
+    background-color: #70653d;    
+}
+#join:hover{
+    background-color: #1c3144;
 }
 main #events{
     color: #F6F5AE;
@@ -61,14 +127,21 @@ main #weather{
     color: #F6F5AE;
     font-family: 'Roboto Condensed';
 }
-#spot ul{
+ul{
     color: #F6F5AE;
     font-family: 'Roboto Condensed';
-    text-align: center;
+    align-content: center;
 }
 footer{
     color: #F6F5AE;
     font-family: 'Roboto Condensed';
     text-align: center;
-    
+    background-color: #625834;
+    padding: 10px;
+    font-size: 1.15rem;
+    border-radius: .35rem;
 }
+footer p{
+    padding-bottom: .5rem;
+}
+
