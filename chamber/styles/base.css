@@ -86,7 +86,6 @@ nav a:hover{
     border-radius: .35rem;
 }
 main{
-    display: grid;
     color: #F6F5AE;
     font-family: 'Roboto Condensed';
     text-align: center;
@@ -100,8 +99,9 @@ main li{
     text-align: left;
     padding: 5px;
 }
-#hero{
-    center;
+.hero img{
+    width: 100%;
+    height: auto;
 }
 main a {
     font-size: 25px;
