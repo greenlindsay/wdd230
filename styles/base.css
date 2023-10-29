@@ -107,6 +107,13 @@ footer {
     display: grid;
     padding: 20px;
 }
+iframe:focus{
+    outline: none;
+}
+iframe{
+    display: block;
+    justify-content: center;
+}
 
 #current {
     color: blanchedalmond;

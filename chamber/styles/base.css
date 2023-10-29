@@ -1,20 +1,24 @@
-:root{
+:root {
     background-color: #1c3144;
 }
-a{
+
+a {
     text-decoration: none;
     color: #F6F5AE;
     font-family: 'Roboto Condensed';
 }
-header img{
-}
-nav{
+
+header img {}
+
+nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     background-color: #625834;
     border-radius: .35rem;
+    width: 100%;
 }
-.switch{
+
+.switch {
     position: relative;
     display: inline-block;
     width: 60px;
@@ -22,22 +26,25 @@ nav{
     align-self: center;
     justify-self: center;
 }
-.switch input{
+
+.switch input {
     opacity: 0;
     width: 0;
     height: 0;
 }
-.slider{
+
+.slider {
     position: absolute;
     cursor: pointer;
     top: 0;
     left: 0;
     right: 0;
-     bottom: 0;
+    bottom: 0;
     background-color: #a1a19e;
     -webkit-transition: .4s;
     transition: .4s;
 }
+
 .slider:before {
     position: absolute;
     content: "";
@@ -48,32 +55,32 @@ nav{
     background-color: #F6F5AE;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  
-  input:checked + .slider {
+}
+
+input:checked+.slider {
     background-color: #1c3144;
-  }
-  
-  input:focus + .slider {
+}
+
+input:focus+.slider {
     box-shadow: 0 0 1px #1c3144;
-  }
-  
-  input:checked + .slider:before {
+}
+
+input:checked+.slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
+}
+
+/* Rounded sliders */
+.slider.round {
     border-radius: 34px;
-  }
-  
-  .slider.round:before {
+}
+
+.slider.round:before {
     border-radius: 50%;
-  }
-  
-nav a{
+}
+
+nav a {
     text-decoration: none;
     color: #F6F5AE;
     font-family: 'Roboto Condensed';
@@ -81,28 +88,106 @@ nav a{
     font-size: 20px;
     text-align: center;
 }
-nav a:hover{
+
+nav a:hover {
     background-color: #70653d;
     border-radius: .35rem;
 }
-main{
+
+main {
     color: #F6F5AE;
     font-family: 'Roboto Condensed';
     text-align: center;
     margin: 0 auto;
+    display: grid;
 }
-main img{
+
+main img {
     justify-self: center;
     padding: 20px;
 }
-main li{
+
+.discover {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    justify-content: left;
+    text-align: center;
+    padding: 20px;
+    background-color: #F6F5AE;
+}
+
+.discover div {
+    margin: .5rem;
+    background-color: #484d61;
+    border-radius: 1rem;
+    ;
+}
+
+.discover p {
+    padding: 20px;
+}
+
+#first {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#sec {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#third {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#input {
+    padding: 1rem;
+}
+
+.discover img {
+    grid-column: 2/3;
+}
+
+#welcome {
+    grid-column: 2/4;
+}
+
+#mayor {
+    grid-column: 2/3;
+}
+
+#state {
+    grid-column: 3/4;
+}
+
+#opp {
+    grid-column: 3/4;
+}
+
+#library {
+    grid-column: 3/4;
+}
+
+#temple {
+    grid-column: 2/3;
+}
+
+#canyon {
+    grid-column: 2/3;
+}
+
+main li {
     text-align: left;
     padding: 5px;
 }
-.hero img{
+
+.hero img {
     width: 100%;
     height: auto;
 }
+
 main a {
     font-size: 25px;
     background-color: #625834;
@@ -111,28 +196,34 @@ main a {
     margin: 0 auto;
     border-radius: .5rem;
 }
-main a:hover{
-    background-color: #70653d;    
+
+main a:hover {
+    background-color: #70653d;
 }
-#join:hover{
+
+#join:hover {
     background-color: #1c3144;
 }
-main #events{
+
+main #events {
     color: #F6F5AE;
     font-family: 'Roboto Condensed';
     padding: 10px;
 
 }
-main #weather{
+
+main #weather {
     color: #F6F5AE;
     font-family: 'Roboto Condensed';
 }
-ul{
+
+ul {
     color: #F6F5AE;
     font-family: 'Roboto Condensed';
     align-content: center;
 }
-footer{
+
+footer {
     color: #F6F5AE;
     font-family: 'Roboto Condensed';
     text-align: center;
@@ -141,7 +232,7 @@ footer{
     font-size: 1.15rem;
     border-radius: .35rem;
 }
-footer p{
+
+footer p {
     padding-bottom: .5rem;
 }
-
