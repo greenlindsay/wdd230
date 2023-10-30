@@ -148,6 +148,12 @@ main img {
 
 .discover img {
     grid-column: 2/3;
+    grid-gap: 10px;
+}
+.discover img:hover{
+    transition: .5s ease;
+    background-color: #1c3144;
+    opacity: 1;
 }
 
 #welcome {
