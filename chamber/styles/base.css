@@ -110,21 +110,28 @@ main img {
 .discover {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 1fr;
     justify-content: left;
     text-align: center;
     padding: 20px;
     background-color: #F6F5AE;
 }
 
-.discover div {
+.bar {
     margin: .5rem;
     background-color: #484d61;
     border-radius: 1rem;
-    ;
+    grid-column: 1/2;
+    grid-row: 1/5;
 }
 
-.discover p {
-    padding: 20px;
+.bar p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.bar div{
+    padding: 10px;
+    padding-top: 100px;
 }
 
 #first {
@@ -139,11 +146,11 @@ main img {
 
 #third {
     grid-column: 1/2;
-    grid-row: 3/4;
+    grid-row: 4/5;
 }
 
 #input {
-    padding: 1rem;
+    padding: .5rem;
 }
 
 .discover img {
@@ -182,6 +189,17 @@ main img {
 
 #canyon {
     grid-column: 2/3;
+}
+.text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 main li {
