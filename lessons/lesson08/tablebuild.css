@@ -1,0 +1,28 @@
+
+caption{
+    padding: 10px;
+    caption-side: bottom;
+}
+table{
+    border: thin solid var(--border);
+}
+th, td{
+    padding: 7px 15px;
+    border: 1px solid var(--borderlight);
+}
+td{
+    text-align: center;
+}
+tbody tr:nth-child(odd){
+    background-color: lightgray;
+}
+tr:first-child{
+    color: white;
+    background-color: black;
+}
+tr th:nth-child(n+2){
+    background-color: gray;
+}
+tbody tr th{
+    color: black;
+}
