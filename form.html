@@ -47,16 +47,28 @@
             </ul>
         </nav>
         <main>
-            <form action="/action_page.php">
+            <form method="get" action="record.html">
                 <label for="username">Username</label>
-                <input type="text" id="username" name="username" required>
+                <input type="text" id="username" name="username" required><br><br>
                 <label for="password">Password</label>
-                <input type="text" id="password" name="password" required pattern="[A-Za-z0-9].{8,}">
+                <input type="text" id="password" name="password" required pattern="[A-Za-z0-9].{8,}"><br><br>
                 <label for="password2">Password Confirmation</label>
-                <input type="text" name="password" id="password" required>
+                <input type="text" name="password" id="password" required><br><br>
                 <label for="email">Email</label>
-                <input type="text" name="email" id="email" required>
-                <input type="range" name="rate" id="rate">
+                <input type="text" name="email" id="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"><br><br>
+                <label for="r">Rate This Page!</label>
+                <div id="rangevalue">0</div>
+                <input type="range" id="r" name="r" min="0" max="5" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </datalist>
+                <input type="submit" value="Create Profile" class="submitBtn">
+
             </form>
         </main>
         <footer>
