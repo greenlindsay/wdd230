@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Build</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="WDD 230 - Web Frontend Development Lindsay Green course assignment portal">
+        <meta name="author" content="Lindsay Green">
+        <meta property="og:title" content="Assignment Portal">
+        <meta property="og:type" content="website">
+        <meta property="og:image"
+            content="https://wisehomesolutions.com/wp-content/uploads/2018/06/orem-utah-treatment-centers.jpg">
+        <meta property="og:url" content="https://greenlindsay.github.io/wdd230/">
+        <title>Lindsay Green - WDD 230 - Web Frontend Development</title>
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="icon" href="favicon (6).ico">
+        <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Roboto:wght@300&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <img id="me" src="images/seniorpic2.webp" alt="me">
+            <h1>Lindsay Green</h1>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <a href="#">Home</a>
+                <a href="chamber/siteplan.html">Site Plan</a>
+                <a href="chamber/">Chamber</a>
+                <a target="_blank" href="https://web.byui.edu/portal/student/">BYU-Idaho</a>
+                <a target="_blank"
+                    href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/4?lang=eng#">Scripture</a>
+            </ul>
+        </nav>
+        <main>
+            <form action="/action_page.php">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password</label>
+                <input type="text" id="password" name="password" required pattern="[A-Za-z0-9].{8,}">
+                <label for="password2">Password Confirmation</label>
+                <input type="text" name="password" id="password" required>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" required>
+                <input type="range" name="rate" id="rate">
+            </form>
+        </main>
+        <footer>
+            <p>&copy; <span id="year"></span> | Lindsay Green | Idaho</p>
+            <p id="lastModified"> Last Modified: <span id="current"></span></p>
+        </footer>
+        <script src="scripts/getdates.js">
+        </script>
+        <script src="scripts/home.js"></script>
+    </body>
+
+    </html>
+</body>
+
+</html>
