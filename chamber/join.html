@@ -15,7 +15,7 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="images/Orem Chamber-logos_white.webp" alt="Orem Chamber Logo" width="250rem"></a>
+        <a href="index.html"><img src="images/Orem Chamber-logos_white.webp" alt="Orem Chamber Logo" width="275rem"></a>
     </header>
     <nav>
         <a href="index.html">Home</a>
@@ -28,30 +28,22 @@
         </label>
     </nav>
     <main>
-        <div class="hero"></div>
-        <picture>
-            <img src="images/orem.webp" alt="image of Orem" width="95%">
-        </picture>
-        <div id="join"></div>
-        <a href="">Click here to join the Chamber!</a>
-
-        <section id="events"></section>
-        <h2>Current Events</h2>
-        <img src="images/events.webp" alt="Events icon" width="80rem">
-
-        <section id="card"></section>
-        <h2>Weather</h2>
-        <p>Temperature: <img src="images/weather.webp" alt="Weather icon" width="40rem">
-        </p>
-        <p>Wind Chill: <img src="images/wind.png" alt="Wind icon" width="30rem"></p>
-
-        <section id="spot"></section>
-        <h2>Spotlights</h2>
-        <ul>
-            <li>3 New Restaurant Openings</li>
-            <li>Orem's Newest Entrepreneurs</li>
-            <li>Chamber of Commerce Awards Ceremony</li>
-        </ul>
+        <form action="thankyou.html" method="get">
+            
+            <label for="fname">First Name: <input type="text" name="fname" id="fname" required></label><br>
+            <label for="lname">Last Name: <input type="text" name="lname" id="lname" required></label><br>
+            <label for="title">Title or Position: <input type="text" name="title" id="title" pattern="[A-Za-z].{7,}"></label><br>
+            <label for="email">Email <input type="email" name="email" id="" placeholder="example@byui.edu"></label><br>
+            <label for="number">Phone Number: <input type="tel" name="phone" id="phone" required></label><br>
+            <label for="org">Business or Organization Name: <input type="text" name="org" id="org" required></label><br>
+                <label for="NP">NP Membership</label>
+                <label for="bronze">Bronze Membership</label>
+                <label for="silver">Silver Membership</label>
+                <label for="gold">Gold Membership</label><br>
+            
+            <label for="timestamp"><span id="stamp"><input type="hidden" name="stamp" id="stamp"></span></label><br>
+            <button><input type="submit" value="Join Us" class="submitBtn"></button>
+        </form>
     </main>
     <footer>
         <p id="lastModified">Lindsay Green | WDD230 Chamber Project | Last Modified: <span id="current"></span></p>

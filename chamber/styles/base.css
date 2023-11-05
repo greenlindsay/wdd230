@@ -8,7 +8,6 @@ a {
     font-family: 'Roboto Condensed';
 }
 
-header img {}
 
 nav {
     display: grid;
@@ -259,4 +258,24 @@ footer {
 
 footer p {
     padding-bottom: .5rem;
+}
+#thank{
+    padding: 10rem;
+    color: #F6F5AE;
+}
+#thank a{
+    padding: rem;
+    background-color: #F6F5AE;
+}
+form{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    background-color: #F6F5AE;
+    padding: 5rem;
+}
+form label{
+    text-align: center;
+    justify-content: center;
+    color: black;
 }
