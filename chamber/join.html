@@ -28,22 +28,51 @@
         </label>
     </nav>
     <main>
+        <h1>Join the Chamber!</h1>
+        <div class="join">
         <form action="thankyou.html" method="get">
-            
-            <label for="fname">First Name: <input type="text" name="fname" id="fname" required></label><br>
-            <label for="lname">Last Name: <input type="text" name="lname" id="lname" required></label><br>
-            <label for="title">Title or Position: <input type="text" name="title" id="title" pattern="[A-Za-z].{7,}"></label><br>
-            <label for="email">Email <input type="email" name="email" id="" placeholder="example@byui.edu"></label><br>
-            <label for="number">Phone Number: <input type="tel" name="phone" id="phone" required></label><br>
-            <label for="org">Business or Organization Name: <input type="text" name="org" id="org" required></label><br>
-                <label for="NP">NP Membership</label>
-                <label for="bronze">Bronze Membership</label>
-                <label for="silver">Silver Membership</label>
-                <label for="gold">Gold Membership</label><br>
-            
-            <label for="timestamp"><span id="stamp"><input type="hidden" name="stamp" id="stamp"></span></label><br>
-            <button><input type="submit" value="Join Us" class="submitBtn"></button>
+            <fieldset><legend>Contact Info</legend><br>
+            <label class="contact">First Name: <input type="text" name="fname" id="fname" required></label><br>
+            <label class="contact">Last Name: <input type="text" name="lname" id="lname" required></label><br>
+            <label class="contact">Title or Position: <input type="text" name="title" id="title" pattern="[A-Za-z0-9 -].{7,}"></label><br>
+            <label class="contact">Email: <input type="email" name="email" id="" placeholder="example@byui.edu"></label><br>
+            <label class="contact">Phone Number: <input type="tel" name="phone" id="phone" required></label><br>
+            <label class="contact">Business or Organization Name: <input type="text" name="org" id="org" required></label><br>
+            </fieldset><br>
+            <fieldset><legend>Choose a Membership</legend> 
+            <label class="ms"><input type="radio" name="ms" value="NP Membership">NP</label>
+                <label class="ms"><input type="radio" name="ms" value="bronze">Bronze</label>
+                <label class="ms"><input type="radio" name="ms" value="silver">Silver</label>
+                <label class="ms"><input type="radio" name="ms" value="gold">Gold</label><br>
+            </fieldset><br>
+            Business/Organization Description:<textarea name="desc" id="desc" cols="5" rows="5"></textarea><br>
+            <button type="submit" value="Join Us" class="submitBtn">Join Us</button><br>
+            <label class="timestamp"><span id="stamp"><input type="hidden" name="stamp" id="stamp"></span></label><br>
         </form>
+     
+        <section class="member">
+        <h2>NP Membership</h2>
+        <ul>
+            <li>For non-profit organizations</li>
+            <li>No fee</li>
+        </ul>
+        <h2>Bronze Membership</h2>
+            <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <li>$25/month</li>
+           </ul>     
+        <h2>Silver Membership</h2>
+            <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium vitae quisquam quae animi deserunt omnis error alias dolores maiores consequatur</li>
+            <li>$40/month</li>
+            </ul>
+        <h2>Gold Membership</h2>
+            <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae id aperiam</li>
+            <li>$60/month</li>
+            </ul>
+        </section><br>
+        </div>
     </main>
     <footer>
         <p id="lastModified">Lindsay Green | WDD230 Chamber Project | Last Modified: <span id="current"></span></p>
