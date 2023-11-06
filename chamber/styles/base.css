@@ -94,11 +94,12 @@ nav a:hover {
 }
 
 main {
-    color: #F6F5AE;
+    color: #1c3144;
     font-family: 'Roboto Condensed';
     text-align: center;
     margin: 0 auto;
     display: grid;
+    background-color: #F6F5AE;
 }
 
 main img {
@@ -202,8 +203,10 @@ main img {
 }
 
 main li {
-    text-align: left;
+    font-size: 18px;
+    text-align: center;
     padding: 5px;
+    color: #1c3144;
 }
 
 .hero img {
@@ -261,21 +264,60 @@ footer p {
 }
 #thank{
     padding: 10rem;
-    color: #F6F5AE;
+    color: #1c3144;
 }
 #thank a{
     padding: rem;
     background-color: #F6F5AE;
 }
 form{
+    width: 60%;
+    margin-left: 30%;
     display: grid;
-    text-align: center;
-    justify-content: center;
     background-color: #F6F5AE;
-    padding: 5rem;
+    padding-top: 2rem;
+    text-align: left;
 }
+
 form label{
-    text-align: center;
-    justify-content: center;
     color: black;
+}
+.join{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.member{
+    padding: 2rem;
+    width: 60%;
+    justify-self: center;
+}
+.member ul{
+    background-color: #a1a19e;
+    border-radius: 1rem;
+}
+.member li{
+    color: white;
+}
+form label.contact{
+    padding-left: .5rem;
+}
+form label.contact input{
+    display: block;
+    padding: .25rem;
+}
+form label.ms{
+    display: block;
+    text-align:left;
+    padding-top: 0.15rem;
+}
+form button.submitBtn{
+    width: 40%;
+    justify-self: center;
+    max-width: 20rem;
+    padding: 0.25rem;
+    background-color: #484d61;
+    color: white;
+}
+form .timestamp{
+    text-align: center;
 }
