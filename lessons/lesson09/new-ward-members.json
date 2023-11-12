@@ -1,0 +1,15 @@
+{
+    "famName":"Green",
+    "famDate": 2016,
+    "famNum" : 6,
+    "bishVis": true,
+    "faMem":[
+        "Garry Green", "male", "3/1/1971",
+        "Janice Green", "female", "11/19/1971",
+        "Tyler Green", "male", "6/18/1998",
+        "Lindsay Green","female", "2/14/2001",
+        "Spencer Green","male", "1/31/2005",
+        "Sam Green","male", "2/26/2010"
+    ]
+    
+}

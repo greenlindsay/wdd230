@@ -1,0 +1,68 @@
+{
+    "members":[
+        {
+            "name":"Fishbowl Inventory",
+            "address":"580 E. Technology Ave. Suite C1100 Orem, UT 84097",
+            "num":"(800) 774-7085",
+            "url":"https://www.fishbowlinventory.com/",
+            "icon":"images/fishbowl.png",
+            "memLev":"Gold"
+        },
+        {
+            "name":"Kneaders Bakery",
+            "address":"871 S Auto Mall Drive American Fork, UT 84003",
+            "num":"(801) 221-7064",
+            "url":"https://www.kneaders.com/",
+            "icon":"images/kneaders.jpg",
+            "memLev":"Silver"
+
+        },
+        {
+            "name":"Nomi Health",
+            "address":"898 N 1200 W #201, Orem, UT 84057",
+            "num":"(855) 601-1900",
+            "url":"https://nomihealth.com/",
+            "icon":"images/nomi.jpg",
+            "memLev":"Gold"
+
+        },
+        {
+            "name":"Blendtec",
+            "address":"1206 S. 1680 W. Orem, UT 84058",
+            "num":"(801) 748-5400",
+            "url":"https://www.blendtec.com/",
+            "icon":"images/blendtec.webp",
+            "memLev":"Gold"
+
+        },
+        {
+            "name":"The Dental Center",
+            "address":"1344 S 800 E, STE 220 Orem, UT 84097",
+            "num":"(801) 224-6165",
+            "url":"https://www.utahcountysmiles.com/",
+            "icon":"images/dental.jpg",
+            "memLev":"Bronze"
+
+        },
+        {
+            "name":"Sav-Mor Auto Clinic Inc.",
+            "address":"780 North 400 West Orem, UT 84057",
+            "num":"(801) 224-2221",
+            "url":"https://www.savmorauto.com/",
+            "icon":"images/sav.jpg",
+            "memLev":"Bronze"
+
+
+        },
+        {
+            "name":"Thompson Orthodontics",
+            "address":"380 W Center St Orem, UT 84057-4659",
+            "num":"(801) 375-7088",
+            "url":"https://wadethompsonortho.com/",
+            "icon":"images/thompson.jpg",
+            "memLev":"NP Membership"
+
+        }
+            
+    ]
+}

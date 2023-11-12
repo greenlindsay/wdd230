@@ -214,14 +214,14 @@ main li {
     height: auto;
 }
 
-main a {
+/*main a {
     font-size: 25px;
     background-color: #625834;
     padding: 20px;
     text-align: center;
     margin: 0 auto;
     border-radius: .5rem;
-}
+}*/
 
 main a:hover {
     background-color: #70653d;
@@ -320,4 +320,36 @@ form button.submitBtn{
 }
 form .timestamp{
     text-align: center;
+}
+
+
+.menu button{
+    width: 20%;
+    font-size: 17px;
+    padding: 4px;
+    background-color: #a1a19e;
+    margin: 10px;
+}
+.menu{
+    padding: 30px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+}
+.grid a{
+    color: #1c3144;
+}
+.grid a:hover{
+    color: #70653d;
+    background-color: #F6F5AE;
+}
+.grid section:nth-child(7){
+    grid-column: 2/3;
+}
+.grid section{
+}
+.list{
+    display: flex;
 }
