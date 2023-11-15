@@ -20,3 +20,9 @@ listbutton.addEventListener("click", () => {
 	display.classList.add("list");
 	display.classList.remove("grid");
 });
+
+const url="https://github.com/greenlindsay/wdd230/blob/main/chamber/data/members.json"
+let results = null;
+async function getData(url){
+	const response=await fetch(url);
+}
