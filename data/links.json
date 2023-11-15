@@ -8,7 +8,7 @@
             },
             {
                 "url":"lessons/lesson02/design.html",
-                "title":"Design Principles Documeny"
+                "title":"Design"
             }
         ]
     },
@@ -16,23 +16,52 @@
             "lesson":"03",
             "links":[
             {
+                "url":"images/combinators.png",
+                "title":"Combinators"
+            },
+            {
+                "url":"https://codepen.io/greenlindsay/pen/RwEJbbw",
+                "title":"Pseudo-Elements"
+            },
+            {
+                "url":"https://codepen.io/greenlindsay/pen/MWZXgvX",
+                "title":"Responsive Menu"
+            },
+            {
                 "url":"lessons/lesson03/chamber-site-plan.html",
                 "title":"Chamber Site Plan"
             }
         ]
     },
         {
+            "lesson":"04",
+            "links":[
+            {
+                "url":"https://codepen.io/greenlindsay/pen/abPRaOo",
+                "title":"Pseudo-Class Fun"
+            },
+            {
+                "url":"chamber/index.html",
+                "title":"Chamber Website"
+            }
+        ] 
+    },
+        {
             "lesson":"05",
             "links":[
             {
                 "url":"lessons/lesson05/bom.html",
-                "title":"Book of Mormon"
+                "title":"BOM Page"
             }
         ]
     },
         {
             "lesson":"06",
             "links":[
+            {
+                "url":"lessons/lesson06/images/landscape.webp",
+                "title":"WebP"
+            },
             { 
                 "url":"lessons/lesson06/responsive-images.html",
                 "title":"Responsive Images"
@@ -44,7 +73,7 @@
             "links":[
             {
                 "url":"lessons/lesson07/bom.html",
-                "title":"Book of Mormon Chapters"
+                "title":"Web Storage API"
             },
             {
                 "url":"lessons/lesson07/lazyload.html",
@@ -58,12 +87,20 @@
                 {
                     "url":"lessons/lesson08/tablebuild.html",
                     "title":"Table Build"
+                },
+                {
+                    "url":"form-start/index.html",
+                    "title":"Form Start"
                 }
             ]
         },
         {
             "lesson":"09",
             "links":[
+                {
+                    "url":"lessons/lesson09/new-ward-members.json",
+                    "title":"JSON File"
+                },
                 {
                     "url":"lessons/lesson09/prophets.html",
                     "title":"Prophets JSON"
