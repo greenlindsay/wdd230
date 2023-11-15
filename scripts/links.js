@@ -10,13 +10,15 @@ async function getLinks(){
 }   
 
 const displayLinks=(weeks)=>{
-    weeks.forEach(week => {
-        let li = document.createElement('li')
+    weeks.forEach((week) => {
+        let li = document.createElement('li');
         let link = document.createElement('a');
         link.textContent = week.title;
 
-        link.setAttribute('href',week.)
-        let title = document.createElement('h1')
+        link.setAttribute('href',week.url);
+        let title = document.createElement('h1',week.title);
+
+        console.log(week);
     });
 }
 
