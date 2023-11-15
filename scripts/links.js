@@ -18,6 +18,8 @@ const displayLinks=(weeks)=>{
         link.setAttribute('href',week.url);
         let title = document.createElement('h1',week.title);
 
+        cards.appendChild(link);
+        cards.appendChild(url);
         console.log(week);
     });
 }
