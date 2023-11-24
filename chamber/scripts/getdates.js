@@ -26,3 +26,6 @@ let results = null;
 async function getData(url){
 	const response=await fetch(url);
 }
+
+
+
