@@ -122,6 +122,10 @@ main {
     display: grid;
     background-color: #F6F5AE;
 }
+main .dark-mode{
+    background-color: #484d61;
+    color: white;
+}
 
 .hero{
     position: relative;
@@ -204,18 +208,16 @@ main {
 
 
 
-
-
 /*discover page*/
 .discover {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
-    grid-template-rows: 1fr;
     justify-content: left;
     text-align: center;
     padding: 20px;
     background-color: #F6F5AE;
 }
+
 
 .bar {
     margin: .5rem;
@@ -238,7 +240,16 @@ main {
     padding: 10px;
     padding-top: 100px;
 }
-
+#barJoin a{
+    color: #F6F5AE;
+    background-color: #625834;
+    font-size: rem;
+    padding: .8rem;
+    border-radius: .5rem;
+}
+#barJoin{
+    padding-bottom: 4rem;
+}
 #first {
     grid-column: 1/2;
     grid-row: 1/2;
@@ -259,8 +270,8 @@ main {
 }
 
 .discover img {
-    grid-column: 2/3;
-    grid-gap: 10px;
+    height: auto;
+    width: 100%;
 }
 .discover img:hover{
     transition: .5s ease;
