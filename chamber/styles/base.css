@@ -1,5 +1,21 @@
+/*index*/
 :root {
     background-color: #1c3144;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+Header h1{
+    color: white;
+    float: right;
+    font-family: 'Playball';
+    font-style: italic;
+    font-size: 4rem;
+    text-align: center;
+    align-self: center;
+    padding-right: 2rem;
+    grid-column: 2/4;
 }
 
 a {
@@ -18,7 +34,11 @@ nav {
     border-radius: .35rem;
     width: 100%;
 }
+nav a.active{
+    background-color: #1c3144;
+}
 
+/* dark mode */
 .switch {
     position: relative;
     display: inline-block;
@@ -72,7 +92,6 @@ input:checked+.slider:before {
     transform: translateX(26px);
 }
 
-/* Rounded sliders */
 .slider.round {
     border-radius: 34px;
 }
@@ -86,7 +105,7 @@ nav a {
     color: #F6F5AE;
     font-family: 'Roboto Condensed';
     padding: 15px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -104,11 +123,90 @@ main {
     background-color: #F6F5AE;
 }
 
-main img {
-    justify-self: center;
-    padding: 20px;
+.hero{
+    position: relative;
+    text-align: center;
+}
+#join h1{
+    color: white;
+    padding: 40px;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+#join{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+}
+#join a{
+    color: #F6F5AE;
+    background-color: #625834;
+    font-size: 1.6rem;
+    padding: 1.2rem;
+    border-radius: .5rem;
+}
+#join a:hover {
+    background-color: #1c3144;
 }
 
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    grid-gap: 4rem;
+    padding: 2rem;
+}
+
+#events{
+    grid-column: 1/2;
+    background-color: #484d61;
+    color: white;
+    border-radius: 1rem;
+
+}
+#events h2{
+    text-shadow: 2px 2px #1c3144;
+}
+#card{
+    grid-column: 2/3;
+    background-color: #484d61;
+    color: white;
+    border-radius: 1rem;
+
+
+}
+#card h2{
+    text-shadow: 2px 2px #1c3144;
+
+}
+#spot{
+    grid-column: 3/4;
+    background-color: #484d61;
+    color: white;
+    border-radius: 1rem;
+
+}
+#spot h2{
+    text-shadow: 2px 2px #1c3144;
+
+}
+#spot li{
+    color: white;
+    border-radius: .5rem;
+    font-size: 1.3rem;
+    align-self: center;
+    padding: .5rem;
+}
+
+
+
+
+
+/*discover page*/
 .discover {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
@@ -126,10 +224,15 @@ main img {
     grid-column: 1/2;
     grid-row: 1/5;
 }
+.bar h2{
+    color: white;
+    text-shadow: 2px 2px #1c3144;
 
+}
 .bar p{
     padding-left: 15px;
     padding-right: 15px;
+    color: white;
 }
 .bar div{
     padding: 10px;
@@ -192,7 +295,7 @@ main img {
 #canyon {
     grid-column: 2/3;
 }
-.text{
+/*.text{
     color: white;
     font-size: 20px;
     position: absolute;
@@ -202,7 +305,7 @@ main img {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-}
+}*/
 
 main li {
     font-size: 18px;
@@ -216,34 +319,8 @@ main li {
     height: auto;
 }
 
-/*main a {
-    font-size: 25px;
-    background-color: #625834;
-    padding: 20px;
-    text-align: center;
-    margin: 0 auto;
-    border-radius: .5rem;
-}*/
 
-main a:hover {
-    background-color: #70653d;
-}
 
-#join:hover {
-    background-color: #1c3144;
-}
-
-main #events {
-    color: #F6F5AE;
-    font-family: 'Roboto Condensed';
-    padding: 10px;
-
-}
-
-main #weather {
-    color: #F6F5AE;
-    font-family: 'Roboto Condensed';
-}
 
 ul {
     color: #F6F5AE;
@@ -310,6 +387,7 @@ form label.contact input{
 form label.ms{
     display: block;
     text-align:left;
+    font-size: 1.2rem;
     padding-top: 0.15rem;
 }
 form button.submitBtn{

@@ -12,3 +12,13 @@ modeButton.addEventListener("click", () => {
 		modeButton.textContent = "🕶️";
 	}
 });
+
+const actNav = document.querySelector('nav');
+const actA = document.querySelector('a');
+
+actA.forEach(navActive => {
+	navActive.addEventListener('click', function(){
+		actNav.querySelector('.active').classList.remove('active')
+		navActive.classList.add('active')
+	})
+})
