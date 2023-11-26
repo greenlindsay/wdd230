@@ -243,7 +243,6 @@ main .dark-mode{
 #barJoin a{
     color: #F6F5AE;
     background-color: #625834;
-    font-size: rem;
     padding: .8rem;
     border-radius: .5rem;
 }
@@ -357,7 +356,6 @@ footer p {
     color: #1c3144;
 }
 #thank a{
-    padding: rem;
     background-color: #F6F5AE;
 }
 form{
