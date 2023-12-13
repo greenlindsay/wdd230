@@ -1,0 +1,92 @@
+:root {
+    background-color: #b8d4e3;
+}
+
+header {
+    background-color: #9bc53d;
+    color: beige;
+    padding: 1.5rem;
+    margin: 0;
+    font-family: Mooli;
+    font-size: 25px;
+}
+
+header img:nth-child(2) {
+    vertical-align: middle;
+    width: 80px;
+}
+
+header img:nth-child(1) {
+    vertical-align: middle;
+    width: 50px;
+}
+nav{
+
+}
+nav a:hover{
+    background-color: #91aa38;
+    padding: 10px;
+    border-radius: 1rem;
+}
+nav a{
+    text-decoration: none;
+    color: beige;
+    font-family: Mooli;
+    padding: 10px;
+    text-align: center;
+    font-size: 23px;
+}
+nav a.active{
+    background-color: #91aa38;
+    border-radius: 1rem;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: roboto condensed;
+    grid-gap: 10px;
+}
+
+.hero {
+    grid-column: 1/5;
+}
+
+.hero a {
+    text-decoration: none;
+    color: #eeeeff;
+    background-color: #046e8f;
+    padding: 12px;
+    border-radius: 2rem;
+    font-family: Mooli;
+}
+
+ul {
+    color: #eeeeff;
+    background-color: #9bc53d;
+    text-align: center;
+    border-radius: 2rem;
+    padding: 3rem;
+    padding-top: 1rem;
+    grid-column: 4/5;
+}
+
+li {
+    padding: 10px;
+}
+
+footer {
+    background-color: #046e8f;
+    color: #eeeeff;
+    padding: 2rem;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    font-family: roboto condensed;
+    vertical-align: middle;
+    left: 0;
+    right: 0;
+}
+#socials{
+    padding-top: 5px;
+    vertical-align: middle;
+}
