@@ -47,8 +47,6 @@ nav a.active{
     border-radius: 1rem;
 }
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     font-family: roboto condensed;
     grid-gap: 10px;
 }
@@ -65,15 +63,21 @@ main {
     border-radius: 2rem;
     font-family: Mooli;
 }
-
-ul {
-    color: #eeeeff;
-    background-color: #9bc53d;
+ul h2{
     text-align: center;
+    font-size: 32px;
+    color: #046e8f;
+    padding-bottom: 10px;
+}
+ul {
+    color: white;
+    background-color: #9bc53d;
     border-radius: 2rem;
     padding: 3rem;
-    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-top: .5rem;
     grid-column: 4/5;
+    font-size: 20px;
 }
 
 li {
@@ -100,4 +104,58 @@ footer {
 #socials{
     padding-top: 5px;
     vertical-align: middle;
+}
+#agree{
+    margin: 3rem;
+}
+/*form*/
+form fieldset{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 5rem;
+    border: 1px solid #046e8f;
+    border-radius: 1.5rem;
+}
+form legend{
+    color: #046e8f;
+    font-size: 20px;
+}
+form label{
+    display: block;
+    padding: 1rem;
+
+}
+form label input{
+    display: block;
+    padding: .65rem;
+    border-radius: .25rem;
+    width: 100%;
+    max-width: 20rem;
+}
+form input.submitButton{
+    border-radius: .5rem;
+    background-color: #91aa38;
+    font-size: 20px;
+    font-family: Roboto Condensed;
+    color: white;
+    padding: 10px;
+    width: 70%;
+    max-width: 20rem;
+    margin: 0 0 5rem 40%;
+    justify-self: center;
+}
+
+form input.submitButton:hover{
+    background-color: #046e8f;
+}
+form p{
+    font-size: 14px;
+    color: darkred;
+}
+
+#thanks{
+    text-align: center;
+    font-family: Mooli;
+    padding: 40px;
+    margin: 8rem;
 }

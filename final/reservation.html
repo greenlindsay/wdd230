@@ -25,6 +25,7 @@
         <div class="hero">
             <img src="images/coz2.jpg" alt="Cozumel Mexico" width="100%">
         </div>
+        <div id="agree">
         <ul>
             <h2>Rental Services and Agreements</h2>
             <li>A $50 security deposit is required to confirm reservations</li>
@@ -38,13 +39,14 @@
             <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or Venmo</li>
             <li>Rentals may be returned to either physical location</li>
         </ul>
+        </div>
         <form method="get" action="thankyou.html">
         <fieldset>  
             <legend>Renter Information</legend>
             <label class="basic">First Name *<input type="text" name="fname" placeholder="John" required></label>
             <label class="basic">Last Name * <input type="text" name="lname" placeholder="Doe" required></label>
             <label class="basic">Email * <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-            <label class="basic">Phone Number <input type="tel" name="phone" placeholder="+1 (800) 555-5555"></label>
+            <label class="basic">Phone Number* <input type="tel" name="phone" placeholder="+1 (800) 555-5555" required></label>
             <label class="address">Address *<input type="text" name="address" required></label>
             <label class="address">State *<input type="text" required></label>
         </fieldset>
@@ -52,8 +54,11 @@
             <legend>Rental Dates</legend>
             <label class="date">Rent From: *<input type="date" name="date" required></label>
             <label class="date">Rent To: * <input type="date" name="date" required></label>
+            <label class="other">Comments or Questions (need and location of a drop-off request, etc): <br><textarea name="other" cols="25" rows="5"></textarea>            <p>An asterisk(*) indicates a required field.</p>
+            </label>
         </fieldset>
-        <fieldset></fieldset>
+
+        <input type="submit" value="Reserve My Vehicle" class="submitButton" src="thankyou.html">
         </form>
     </main>
     <footer>
