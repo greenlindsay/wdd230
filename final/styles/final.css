@@ -78,6 +78,10 @@ main {
     font-size: 20px;
     padding: 5px;
 }
+#welcome li{
+    font-size: 18px;
+    text-align: left;
+}
 #links{
     color: white;
     background-color: #9bc53d;
