@@ -30,30 +30,48 @@
     </header>
     <main>
         <div class="hero">
-            <img src="images/cozumel.jpg" alt="image of Cozumel beach">
-            <a href="reservation.html">Rent With Us!</a>
+            <img src="images/cozumel.webp" alt="image of Cozumel beach" loading="lazy">
         </div>
-
-        <div id="links">
-            Follow Us:
-                <a href="">Instagram<img src="images/instagram.webp" alt="Instagram" width="50" loading="lazy"></a>
-                <a href="">Twitter<img src="images/twitter.webp" alt="Twitter" width="50" loading="lazy"></a>
-                <a href="">Facebook<img src="images/fb.png" alt="Facebook" width="44" loading="lazy"></a>
-        </div>       
+        <div id="welcome">
+            <h1>Welcome to our page!</h1>
+            <p>Scoots is a scooter and vehicle rental service
+                designed to cater to locals, walk-in tourists,
+                motor scooter enthusiasts, and cruise-based touring 
+                groups and partnerships to explore the 
+                beautiful island of Cozumel, Mexico!
+            </p> 
+            <p>
+                Scoots has two locations: the el Centro de Cozumel location
+                near the Playa del Carmen-Cozumel Ferry dock, and the other 
+                near the Terminal Puerta Maya along the coast which caters 
+                to cruise lines and patrons.
+            </p>
+            <a href="reservation.html">Reserve Your Scooter Today!</a>
+        </div>
+             
 
         <div id="weather">
-            <h2>Weather Information</h2>
-            
+            <h1>🔆Weather Information🔆</h1>
+            <div class="weather">
+                <p>Current Weather: <br><br><span id="current-temp"></span></p>
+                <figure>
+                    <img src="https://openweathermap.org/api" alt="API weather icon" id="weather-icon">
+                    <figcaption></figcaption>
+                </figure>    
+                <p><span id="currentWeather"></span></p>
+            </div>
         </div>
+        <div id="links">
+            <h1>Follow Us:</h1>
+            <a href="https://www.instagram.com/"><img src="images/instagram.webp" alt="Instagram" width="60" loading="lazy">Instagram</a>
+            <a href="https://twitter.com/"><img src="images/twitter.webp" alt="Twitter" width="65" loading="lazy">Twitter</a>
+            <a href="https://www.facebook.com/"><img src="images/fb.png" alt="Facebook" width="50" loading="lazy">Facebook</a>
+        </div>  
 
     </main>
     <footer>
         Fall 2023  |  Lindsay Green  |  WDD230 Final Project
-        <div id="socials">
-            <img src="images/instagram.webp" alt="Instagram" width="50" loading="lazy">
-            <img src="images/twitter.webp" alt="Twitter" width="50" loading="lazy">
-            <img src="images/fb.png" alt="Facebook" width="44" loading="lazy">
-        </div>
+        <script src="scripts/weather.js"></script>
         <script src="scripts/banner.js"></script>
     </footer>
 </body>
