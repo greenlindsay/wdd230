@@ -70,9 +70,6 @@ ul h2{
     color: #046e8f;
     padding-bottom: 10px;
 }
-ul {
-    
-}
 
 li {
     padding: 10px;
@@ -101,6 +98,7 @@ footer {
 }
 #agree h1{
     text-align: center;
+    font-size: 35px;
 }
 #agree{
     margin: 3rem;
@@ -158,6 +156,7 @@ form input.submitButton:hover{
 form p{
     font-size: 14px;
     color: darkred;
+    padding-left: 15px;
 }
 
 #thanks{
