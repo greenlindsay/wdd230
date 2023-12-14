@@ -2,6 +2,12 @@
     background-color: #b8d4e3;
 }
 
+.banner-content{
+    color: black;
+    font-family: Mooli;
+    font-size: 15px;
+    text-align: center;
+}
 header {
     background-color: #9bc53d;
     color: beige;
@@ -72,6 +78,11 @@ ul {
 
 li {
     padding: 10px;
+}
+label{
+    padding: 20px;
+    float: left;
+    padding-left: 0px;
 }
 
 footer {

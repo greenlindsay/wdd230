@@ -1,0 +1,70 @@
+{
+    "rentals":[
+        {
+            "name":"Honda Metro Scooter",
+            "img":"images/metropolitan.jpg",
+            "max":1,
+            "reservation":[
+                "$20","$30"
+            ],
+            "walk":[
+                "$25","$35"
+            ]
+        },
+        {
+            "name":"Honda Dio Scooter",
+            "img":"images/dio.jpg",
+            "max":2,
+            "reservation":[
+                "$30","$40"
+            ],
+            "walk":[
+                "$35","$45"
+            ]
+        },
+        {
+            "name":"Honda PCX150 Scooter",
+            "img":"images/pcx150.png",
+            "max":2,
+            "reservation":[
+                "$40","$50"
+            ],
+            "walk":[
+                "$45","$55"
+            ]
+        },
+        {
+            "name":"Honda Pioneer ATV",
+            "img":"images/pioneer.jpg",
+            "max":4,
+            "reservation":[
+                "$50","$70"
+            ],
+            "walk":[
+                "$60","$80"
+            ]
+        },
+        {
+            "name":"Jeep Wrangler - 4-Door with A/C",
+            "img":"wrangler.png",
+            "max":5,
+            "reservation":[
+                "$70","$100"
+            ],
+            "walk":[
+                "$85","$125"
+            ]
+        },
+        {
+            "name":"Jeep Wrangler - 2-Door",
+            "img":"images/2door.webp",
+            "max":4,
+            "reservation":[
+                "$60",
+            ],
+            "walk":[
+                "$70","$90"
+            ]
+        }
+    ]
+}
