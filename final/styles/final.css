@@ -53,6 +53,7 @@ main {
 
 .hero {
     grid-column: 1/5;
+    width: 100%;
 }
 
 .hero a {
@@ -70,14 +71,7 @@ ul h2{
     padding-bottom: 10px;
 }
 ul {
-    color: white;
-    background-color: #9bc53d;
-    border-radius: 2rem;
-    padding: 3rem;
-    padding-left: 5rem;
-    padding-top: .5rem;
-    grid-column: 4/5;
-    font-size: 20px;
+    
 }
 
 li {
@@ -105,8 +99,19 @@ footer {
     padding-top: 5px;
     vertical-align: middle;
 }
+#agree h1{
+    text-align: center;
+}
 #agree{
     margin: 3rem;
+    color: white;
+    background-color: #9bc53d;
+    border-radius: 2rem;
+    padding: 3rem;
+    padding-left: 5rem;
+    padding-top: .5rem;
+    grid-column: 4/5;
+    font-size: 20px;
 }
 
 
